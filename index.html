@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdealMetric - Pengukur BMI Profesional</title>
+  
+  
+  
+  
+  
+ <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+  <div class="container"><!-- Header -->
+   <div class="header">
+    <div class="header-icon">
+     <svg width="80" height="80" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Doctor with stethoscope --> <circle cx="12" cy="6" r="3" fill="#1e3a8a" /> <path d="M12 10c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z" fill="#1e3a8a" /> <!-- Stethoscope --> <path d="M18 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z" fill="#059669" /> <path d="M16 16c0-.34.04-.67.09-1H15c-.55 0-1-.45-1-1V9c0-.55.45-1 1-1h1c.55 0 1 .45 1 1v5c0 .55-.45 1-1 1h-.09c.05.33.09.66.09 1z" fill="#059669" /> <!-- Medical cross --> <path d="M8 8h2v2H8V8zm0 3h2v2H8v-2z" fill="#dc2626" /> <path d="M9 7v6h1V7H9z" fill="#dc2626" />
+     </svg>
+    </div>
+    <h1 class="main-title" id="mainTitle">📊 IdealMetric - Pengukur BMI Profesional</h1>
+    <p class="subtitle" id="subtitle">💪 Hitung BMI Anda dengan akurat dan cepat</p>
+   </div><!-- Page 1: Welcome -->
+   <div class="page active" id="page1">
+    <div class="welcome-section">
+     <div class="center-content"><!-- Hero Icon Section -->
+      <div class="hero-icon-section">
+       <div class="main-hero-icon">
+        <svg width="120" height="120" viewbox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Background circle with gradient --> <circle cx="60" cy="60" r="55" fill="url(#heroGradient)" stroke="#1e3a8a" stroke-width="3" /> <!-- Scale/Balance icon --> <rect x="45" y="70" width="30" height="4" rx="2" fill="#ffffff" /> <circle cx="60" cy="72" r="2" fill="#ffffff" /> <!-- Left scale plate --> <ellipse cx="35" cy="65" rx="12" ry="3" fill="#ffffff" /> <line x1="35" y1="65" x2="47" y2="70" stroke="#ffffff" stroke-width="2" /> <!-- Right scale plate --> <ellipse cx="85" cy="65" rx="12" ry="3" fill="#ffffff" /> <line x1="85" y1="65" x2="73" y2="70" stroke="#ffffff" stroke-width="2" /> <!-- Person silhouette --> <ellipse cx="60" cy="35" rx="8" ry="10" fill="#ffffff" /> <rect x="52" y="45" width="16" height="20" rx="3" fill="#ffffff" /> <!-- Health cross --> <rect x="58" y="25" width="4" height="12" rx="1" fill="#10b981" /> <rect x="54" y="29" width="12" height="4" rx="1" fill="#10b981" /> <defs>
+          <lineargradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+           <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+           <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+          </lineargradient>
+         </defs>
+        </svg>
+       </div><!-- Floating feature icons -->
+       <div class="floating-icons">
+        <div class="floating-icon icon-1">
+         <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Calculator icon --> <rect x="8" y="6" width="24" height="28" rx="3" fill="#10b981" stroke="#059669" stroke-width="2" /> <rect x="10" y="10" width="20" height="6" rx="1" fill="#ffffff" /> <circle cx="14" cy="20" r="2" fill="#ffffff" /> <circle cx="20" cy="20" r="2" fill="#ffffff" /> <circle cx="26" cy="20" r="2" fill="#ffffff" /> <circle cx="14" cy="26" r="2" fill="#ffffff" /> <circle cx="20" cy="26" r="2" fill="#ffffff" /> <circle cx="26" cy="26" r="2" fill="#ffffff" />
+         </svg>
+        </div>
+        <div class="floating-icon icon-2">
+         <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Heart with pulse icon --> <path d="M20 32c-1.5-1.5-12-8.5-12-16 0-4.5 3.5-8 8-8 2.5 0 4.5 1 6 2.5C23.5 9 25.5 8 28 8c4.5 0 8 3.5 8 8 0 7.5-10.5 14.5-12 16z" fill="#ef4444" /> <path d="M12 20h4l2-4 4 8 2-4h4" stroke="#ffffff" stroke-width="2" fill="none" />
+         </svg>
+        </div>
+        <div class="floating-icon icon-3">
+         <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Chart/Analytics icon --> <rect x="6" y="6" width="28" height="28" rx="3" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2" /> <rect x="10" y="24" width="4" height="6" fill="#ffffff" /> <rect x="16" y="20" width="4" height="10" fill="#ffffff" /> <rect x="22" y="16" width="4" height="14" fill="#ffffff" /> <rect x="28" y="12" width="4" height="18" fill="#ffffff" />
+         </svg>
+        </div>
+        <div class="floating-icon icon-4">
+         <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Target/Goal icon --> <circle cx="20" cy="20" r="14" fill="#f59e0b" stroke="#d97706" stroke-width="2" /> <circle cx="20" cy="20" r="10" fill="#ffffff" /> <circle cx="20" cy="20" r="6" fill="#f59e0b" /> <circle cx="20" cy="20" r="2" fill="#ffffff" />
+         </svg>
+        </div>
+        <div class="floating-icon icon-5">
+         <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Shield/Protection icon --> <path d="M20 4l-12 6v10c0 8 5 15 12 16 7-1 12-8 12-16V10l-12-6z" fill="#06b6d4" stroke="#0891b2" stroke-width="2" /> <path d="M16 18l3 3 6-6" stroke="#ffffff" stroke-width="2" fill="none" />
+         </svg>
+        </div>
+        <div class="floating-icon icon-6">
+         <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Trophy/Achievement icon --> <path d="M20 6v8c4 0 8-2 8-4V8c0-2-4-2-8-2s-8 0-8 2v2c0 2 4 4 8 4z" fill="#f59e0b" /> <rect x="18" y="14" width="4" height="12" fill="#f59e0b" /> <rect x="14" y="26" width="12" height="4" rx="2" fill="#f59e0b" /> <circle cx="12" cy="12" r="4" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1" /> <circle cx="28" cy="12" r="4" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1" />
+         </svg>
+        </div>
+       </div>
+      </div>
+      <p class="welcome-text" id="welcomeText">🎯 Selamat datang di kalkulator BMI profesional yang akan membantu Anda memahami status kesehatan tubuh dengan lebih baik.</p><!-- Feature highlights with icons -->
+      <div class="feature-highlights">
+       <div class="feature-item">
+        <div class="feature-icon">
+         ⚡
+        </div><span>Perhitungan Cepat &amp; Akurat</span>
+       </div>
+       <div class="feature-item">
+        <div class="feature-icon">
+         📊
+        </div><span>Analisis Mendalam</span>
+       </div>
+       <div class="feature-item">
+        <div class="feature-icon">
+         💡
+        </div><span>Saran Kesehatan Personal</span>
+       </div>
+       <div class="feature-item">
+        <div class="feature-icon">
+         👥
+        </div><span>Tentang Kami</span>
+       </div>
+      </div>
+      <p class="importance-text">Body Mass Index (BMI) adalah indikator penting untuk menilai apakah berat badan Anda ideal, kurang, atau berlebih. Dengan mengetahui BMI, Anda dapat mengambil langkah yang tepat untuk menjaga kesehatan dan mencapai berat badan ideal. Kalkulator ini memberikan hasil yang akurat dan mudah dipahami untuk membantu Anda memahami status kesehatan tubuh.</p><button class="cta-button" id="startButton" onclick="showPage(2)"> <span class="button-icon">🚀</span> <span id="ctaButtonText">Mulai Hitung BMI</span> </button>
+     </div>
+    </div>
+   </div><!-- Page 2: BMI Form -->
+   <div class="page" id="page2">
+    <div class="form-container">
+     <h2 class="form-title" id="formTitle">Masukkan Data Anda</h2>
+     <div id="errorMessage" class="error-message" style="display: none;"></div>
+     <div id="successMessage" class="success-message" style="display: none;"></div>
+     <form id="bmiForm">
+      <div class="form-group"><label for="age" class="form-label">🎂 Usia (tahun)</label> <input type="number" id="age" class="form-input" placeholder="Masukkan usia" min="1" max="120" required>
+      </div>
+      <div class="form-group"><label class="form-label">⚧ Jenis Kelamin</label>
+       <div class="gender-options">
+        <div class="gender-option" data-gender="male"><strong>👨 Laki-laki</strong>
+        </div>
+        <div class="gender-option" data-gender="female"><strong>👩 Perempuan</strong>
+        </div>
+       </div><input type="hidden" id="gender" required>
+      </div>
+      <div class="form-group"><label for="height" class="form-label">📏 Tinggi Badan (cm)</label> <input type="number" id="height" class="form-input" placeholder="Masukkan tinggi badan" min="50" max="250" step="0.1" required>
+      </div>
+      <div class="form-group"><label for="weight" class="form-label">⚖️ Berat Badan (kg)</label> <input type="number" id="weight" class="form-input" placeholder="Masukkan berat badan" min="10" max="500" step="0.1" required>
+      </div><button type="submit" class="calculate-button" id="calculateButton"> Hitung BMI Saya </button>
+     </form>
+    </div>
+   </div><!-- Page 3: Results -->
+   <div class="page" id="page3">
+    <div class="result-container">
+     <h2 class="result-title">🎯 Hasil Perhitungan BMI</h2>
+     <div class="bmi-display">
+      <div class="bmi-silhouette" id="bmiSilhouette"><!-- Silhouette will be inserted here dynamically -->
+      </div>
+      <div class="bmi-value" id="bmiValue">
+       0.0
+      </div>
+      <div class="bmi-category" id="bmiCategory">
+       Normal
+      </div>
+      <div class="bmi-interpretation" id="bmiInterpretation">
+       BMI Anda berada dalam kategori normal. Pertahankan pola hidup sehat!
+      </div>
+     </div><!-- BMI Chart Section -->
+     <div class="chart-container">
+      <h3 class="chart-title">📊 Grafik Standar Pengukuran BMI</h3>
+      <div class="bmi-chart">
+       <div class="chart-legend">
+        <div class="legend-item">
+         <div class="legend-color underweight"></div><span>Kurus (&lt; 18.5)</span>
+        </div>
+        <div class="legend-item">
+         <div class="legend-color normal"></div><span>Normal (18.5 - 24.9)</span>
+        </div>
+        <div class="legend-item">
+         <div class="legend-color overweight"></div><span>Gemuk (25.0 - 29.9)</span>
+        </div>
+        <div class="legend-item">
+         <div class="legend-color obese"></div><span>Obesitas (≥ 30.0)</span>
+        </div>
+       </div>
+       <div class="chart-visual">
+        <div class="chart-scale">
+         <div class="scale-item">
+          <div class="scale-number">
+           15
+          </div>
+          <div class="scale-line"></div>
+         </div>
+         <div class="scale-item">
+          <div class="scale-number">
+           18.5
+          </div>
+          <div class="scale-line major"></div>
+         </div>
+         <div class="scale-item">
+          <div class="scale-number">
+           20
+          </div>
+          <div class="scale-line"></div>
+         </div>
+         <div class="scale-item">
+          <div class="scale-number">
+           25
+          </div>
+          <div class="scale-line major"></div>
+         </div>
+         <div class="scale-item">
+          <div class="scale-number">
+           30
+          </div>
+          <div class="scale-line major"></div>
+         </div>
+         <div class="scale-item">
+          <div class="scale-number">
+           35
+          </div>
+          <div class="scale-line"></div>
+         </div>
+         <div class="scale-item">
+          <div class="scale-number">
+           40
+          </div>
+          <div class="scale-line"></div>
+         </div>
+        </div>
+        <div class="chart-bar">
+         <div class="bar-section underweight" data-range="< 18.5"><span class="bar-label">Kurus</span>
+         </div>
+         <div class="bar-section normal" data-range="18.5 - 24.9"><span class="bar-label">Normal</span>
+         </div>
+         <div class="bar-section overweight" data-range="25.0 - 29.9"><span class="bar-label">Gemuk</span>
+         </div>
+         <div class="bar-section obese" data-range="≥ 30.0"><span class="bar-label">Obesitas</span>
+         </div>
+        </div>
+        <div class="user-indicator" id="userIndicator">
+         <div class="indicator-arrow">
+          ▼
+         </div>
+         <div class="indicator-value" id="indicatorValue">
+          0.0
+         </div>
+         <div class="indicator-label">
+          BMI Anda
+         </div>
+        </div>
+       </div>
+       <div class="chart-info">
+        <div class="info-card">
+         <div class="info-icon">
+          ℹ️
+         </div>
+         <div class="info-content">
+          <div class="info-title">
+           Tentang BMI
+          </div>
+          <div class="info-text">
+           Body Mass Index (BMI) adalah ukuran standar internasional untuk menilai apakah berat badan seseorang ideal berdasarkan tinggi badannya.
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div><!-- Health Suggestions Section -->
+     <div class="suggestions-container" id="suggestionsContainer">
+      <h3 class="suggestions-title">💡 Saran Kesehatan untuk Anda</h3>
+      <div class="suggestions-grid" id="suggestionsGrid"><!-- Suggestions will be inserted here dynamically -->
+      </div>
+     </div>
+     <div class="action-buttons"><button class="cta-button" onclick="showPage(2)">🔄 Hitung Lagi</button> <button class="secondary-button" onclick="showPage(1)">🏠 Kembali ke Beranda</button>
+     </div>
+    </div>
+   </div><!-- Page 4: About Us -->
+   <div class="page" id="page4">
+    <div class="about-container">
+     <h2 class="about-title">👥 Tentang Kami</h2>
+     <div class="about-content">
+      <div class="about-intro">
+       <div class="intro-icon">
+        <svg width="60" height="60" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7.5V9M15 11.5C15.8 11.5 16.5 12.2 16.5 13S15.8 14.5 15 14.5 13.5 13.8 13.5 13 14.2 11.5 15 11.5M5 7V9L11 8.5V7L5 7ZM11 11.5C11.8 11.5 12.5 12.2 12.5 13S11.8 14.5 11 14.5 9.5 13.8 9.5 13 10.2 11.5 11 11.5M12 14C12 15.1 11.1 16 10 16H8V22H16V16H14C12.9 16 12 15.1 12 14Z" fill="#1e3a8a" />
+        </svg>
+       </div>
+       <p class="intro-text">Selamat datang di IdealMetric! Kami adalah tim pengembang yang berdedikasi untuk menciptakan solusi kesehatan digital yang mudah diakses dan bermanfaat bagi semua orang.</p>
+      </div>
+      <div class="developers-section">
+       <h3 class="section-title">💻 Tim Pengembang</h3>
+       <div class="developers-grid">
+        <div class="developer-card">
+         <div class="developer-avatar">
+          <div class="avatar-icon">
+           👨‍💻
+          </div>
+         </div>
+         <div class="developer-info">
+          <h4 class="developer-name">Mohammad Adam Rayliansyah</h4>
+          <p class="developer-role">Lead Developer &amp; UI/UX Designer</p>
+          <div class="developer-social"><a href="https://instagram.com/admrayz_" target="_blank" rel="noopener noreferrer" class="social-link">
+ 
+      <div class="education-section">
+       <h3 class="section-title">🎓 Latar Belakang Pendidikan</h3>
+       <div class="education-card">
+        <div class="education-icon">
+         <svg width="40" height="40" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L1 9L12 15L21 12.09V17H23V9M5 13.18V17.18C5 19.45 8.24 21 12 21S19 19.45 19 17.18V13.18L12 15L5 13.18Z" fill="#059669" />
+         </svg>
+        </div>
+        <div class="education-info">
+         <h4 class="education-title">Pelajar Ilmu Pengetahuan Alam</h4>
+         <p class="education-school">SMA Negeri Mojoagung</p>
+         <p class="education-description">Kami adalah siswa yang passionate dalam bidang sains dan teknologi, dengan fokus khusus pada pengembangan aplikasi kesehatan dan wellness.</p>
+        </div>
+       </div>
+      </div>
+      <div class="contact-section">
+       <h3 class="section-title">📞 Hubungi Kami</h3>
+       <div class="contact-info">
+        <div class="contact-item">
+         <div class="contact-icon">
+          📱
+         </div>
+         <div class="contact-content">
+          <h4>Temui Kami di Instagram</h4>
+          <p>Ikuti perkembangan project terbaru kami dan dapatkan tips kesehatan menarik!</p>
+          <div class="social-links"><a href="https://instagram.com/admrayz_" target="_blank" rel="noopener noreferrer" class="social-button">
+            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" /> <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" /> <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" />
+            </svg> @admrayz_ </a> <a href="https://instagram.com/izzulil.hq" target="_blank" rel="noopener noreferrer" class="social-button">
+            <svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" /> <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" /> <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" />
+            </svg> @izzulil.hq </a>
+          </div>
+         </div>
+        </div>
+        <div class="contact-item">
+         <div class="contact-icon">
+          💡
+         </div>
+         <div class="contact-content">
+          <h4>Saran &amp; Masukan</h4>
+          <p>Kami sangat menghargai feedback dari Anda untuk terus mengembangkan aplikasi ini menjadi lebih baik.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="mission-section">
+       <h3 class="section-title">🎯 Misi Kami</h3>
+       <div class="mission-grid">
+        <div class="mission-item">
+         <div class="mission-icon">
+          🏥
+         </div>
+         <div class="mission-content">
+          <h4>Kesehatan untuk Semua</h4>
+          <p>Menyediakan tools kesehatan yang mudah diakses dan dipahami oleh semua kalangan.</p>
+         </div>
+        </div>
+        <div class="mission-item">
+         <div class="mission-icon">
+          📊
+         </div>
+         <div class="mission-content">
+          <h4>Data Akurat</h4>
+          <p>Memberikan perhitungan dan analisis yang akurat berdasarkan standar medis internasional.</p>
+         </div>
+        </div>
+        <div class="mission-item">
+         <div class="mission-icon">
+          🚀
+         </div>
+         <div class="mission-content">
+          <h4>Inovasi Berkelanjutan</h4>
+          <p>Terus mengembangkan fitur-fitur baru untuk mendukung gaya hidup sehat masyarakat.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="action-buttons"><button class="cta-button" onclick="showPage(2)">🧮 Coba Kalkulator BMI</button> <button class="secondary-button" onclick="showPage(1)">🏠 Kembali ke Beranda</button>
+     </div>
+    </div>
+   </div><!-- Navigation -->
+   <div class="nav-buttons"><button class="nav-button active" onclick="showPage(1)">🏠 Beranda</button> <button class="nav-button" onclick="showPage(2)">🧮 Kalkulator</button> <button class="nav-button" onclick="showPage(4)">👥 Tentang Kami</button>
+   </div>
+  </div>
+  
+ <script src="script.js"></script>
+</body>
+</html>
